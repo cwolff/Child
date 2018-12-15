@@ -1,0 +1,334 @@
+child.exe: main.prg addltr.obj addpat.obj age.obj backdbf.obj checkit.obj
+child.exe: chkff.obj chldadd.obj chldedit.obj chldmenu.obj chldrprt.obj 
+child.exe: chldview.obj chngpass.obj clrscrn.obj datetail.obj deldata.obj 
+child.exe: editpat.obj findpat.obj floppybu.obj floppyre.obj frame.obj 
+child.exe: getcar.obj getcard.obj getdia.obj getech.obj getechd.obj 
+child.exe: getekg.obj getekgd.obj gethos.obj gethosd.obj getkey.obj 
+child.exe: getltr.obj getncar.obj getnech.obj getnekg.obj getnekgd.obj 
+child.exe: getnhos.obj getnpat.obj getnxry.obj getoff.obj getpage.obj 
+child.exe: getpass.obj getpat.obj getpro.obj getxry.obj getxryd.obj 
+child.exe: gpname.obj gpnbr.obj menu.obj ochsadd.obj ochsedit.obj 
+child.exe: ochsview.obj pallcar.obj palldia.obj pallech.obj pallekg.obj 
+child.exe: pallhos.obj pallltr.obj palloff.obj pallpat.obj pallpro.obj 
+child.exe: pallxry.obj password.obj printall.obj printcar.obj printdia.obj 
+child.exe: printech.obj printekg.obj printhos.obj printit.obj printltr.obj 
+child.exe: printoff.obj printpat.obj printpro.obj printsel.obj printxry.obj 
+child.exe: prompt.obj putcar.obj putdia.obj putech.obj putekg.obj 
+child.exe: puthos.obj putpage.obj putpat.obj putpro.obj putxry.obj 
+child.exe: readcar.obj readdia.obj readech.obj readekg.obj readhos.obj 
+child.exe: readltr.obj readoff.obj readpat.obj readpro.obj readxry.obj 
+child.exe: restdbf.obj savedata.obj sgetage.obj sgetcar.obj 
+child.exe: sgetdia.obj sgetdied.obj sgetech.obj sgetekg.obj sgetpro.obj 
+child.exe: sgetxry.obj showdiat.obj showekgt.obj srchage.obj srchbrth.obj 
+child.exe: srchcar.obj srchdia.obj srchdied.obj srchech.obj srchekg.obj 
+child.exe: srchmenu.obj srchpro.obj srchproc.obj srchxry.obj status.obj 
+child.exe: sysadmin.obj tail.obj testadd.obj testedit.obj testview.obj 
+child.exe: totaleod.obj totaleom.obj totaleoy.obj usermain.obj viewcar.obj 
+child.exe: viewdia.obj viewech.obj viewekg.obj viewhos.obj viewldir.obj 
+child.exe: viewltr.obj viewoff.obj viewpro.obj viewxry.obj writecar.obj 
+child.exe: writedia.obj writeech.obj writeekg.obj writehos.obj writeltr.obj 
+child.exe: writeoff.obj writepat.obj writepro.obj writexry.obj yesno.obj
+	Plink86 @CHILD.LNK
+
+main.obj: main.prg
+	clipper main -m -l
+addltr.obj: addltr.prg
+	clipper addltr -m -l
+addpat.obj: addpat.prg
+	clipper addpat -m -l
+age.obj: age.prg
+	clipper age -m -l
+backdbf.obj: backdbf.prg
+	clipper backdbf -m -l
+checkit.obj: checkit.prg
+	clipper checkit -m -l
+chkff.obj: chkff.prg
+	clipper chkff -m -l
+chldadd.obj: chldadd.prg
+	clipper chldadd -m -l
+chldedit.obj: chldedit.prg
+	clipper chldedit -m -l
+chldmenu.obj: chldmenu.prg
+	clipper chldmenu -m -l
+chldrprt.obj: chldrprt.prg
+	clipper chldrprt -m -l
+chldview.obj: chldview.prg
+	clipper chldview -m -l
+chngpass.obj: chngpass.prg
+	clipper chngpass -m -l
+clrscrn.obj: clrscrn.prg
+	clipper clrscrn -m -l
+datetail.obj: datetail.prg
+	clipper datetail -m -l
+deldata.obj: deldata.prg
+	clipper deldata -m -l
+editpat.obj: editpat.prg
+	clipper editpat -m -l
+findpat.obj: findpat.prg
+	clipper findpat -m -l
+floppybu.obj: floppybu.prg
+	clipper floppybu -m -l
+floppyre.obj: floppyre.prg
+	clipper floppyre -m -l
+frame.obj: frame.prg
+	clipper frame -m -l
+getcar.obj: getcar.prg
+	clipper getcar -m -l
+getcard.obj: getcard.prg
+	clipper getcard -m -l
+getdia.obj: getdia.prg
+	clipper getdia -m -l
+getech.obj: getech.prg
+	clipper getech -m -l
+getechd.obj: getechd.prg
+	clipper getechd -m -l
+getekg.obj: getekg.prg
+	clipper getekg -m -l
+getekgd.obj: getekgd.prg
+	clipper getekgd -m -l
+gethos.obj: gethos.prg
+	clipper gethos -m -l
+gethosd.obj: gethosd.prg
+	clipper gethosd -m -l
+getkey.obj: getkey.prg
+	clipper getkey -m -l
+getltr.obj: getltr.prg
+	clipper getltr -m -l
+getncar.obj: getncar.prg
+	clipper getncar -m -l
+getnech.obj: getnech.prg
+	clipper getnech -m -l
+getnekg.obj: getnekg.prg
+	clipper getnekg -m -l
+getnekgd.obj: getnekgd.prg
+	clipper getnekgd -m -l
+getnhos.obj: getnhos.prg
+	clipper getnhos -m -l
+getnpat.obj: getnpat.prg
+	clipper getnpat -m -l
+getnxry.obj: getnxry.prg
+	clipper getnxry -m -l
+getoff.obj: getoff.prg
+	clipper getoff -m -l
+getpage.obj: getpage.prg
+	clipper getpage -m -l
+getpass.obj: getpass.prg
+	clipper getpass -m -l
+getpat.obj: getpat.prg
+	clipper getpat -m -l
+getpro.obj: getpro.prg
+	clipper getpro -m -l
+getxry.obj: getxry.prg
+	clipper getxry -m -l
+getxryd.obj: getxryd.prg
+	clipper getxryd -m -l
+gpname.obj: gpname.prg
+	clipper gpname -m -l
+gpnbr.obj: gpnbr.prg
+	clipper gpnbr -m -l
+menu.obj: menu.prg
+	clipper menu -m -l
+ochsadd.obj: ochsadd.prg
+	clipper ochsadd -m -l
+ochsedit.obj: ochsedit.prg
+	clipper ochsedit -m -l
+ochsview.obj: ochsview.prg
+	clipper ochsview -m -l
+pallcar.obj: pallcar.prg
+	clipper pallcar -m -l
+palldia.obj: palldia.prg
+	clipper palldia -m -l
+pallech.obj: pallech.prg
+	clipper pallech -m -l
+pallekg.obj: pallekg.prg
+	clipper pallekg -m -l
+pallhos.obj: pallhos.prg
+	clipper pallhos -m -l
+pallltr.obj: pallltr.prg
+	clipper pallltr -m -l
+palloff.obj: palloff.prg
+	clipper palloff -m -l
+pallpat.obj: pallpat.prg
+	clipper pallpat -m -l
+pallpro.obj: pallpro.prg
+	clipper pallpro -m -l
+pallxry.obj: pallxry.prg
+	clipper pallxry -m -l
+password.obj: password.prg
+	clipper password -m -l
+printall.obj: printall.prg
+	clipper printall -m -l
+printcar.obj: printcar.prg
+	clipper printcar -m -l
+printdia.obj: printdia.prg
+	clipper printdia -m -l
+printech.obj: printech.prg
+	clipper printech -m -l
+printekg.obj: printekg.prg
+	clipper printekg -m -l
+printhos.obj: printhos.prg
+	clipper printhos -m -l
+printit.obj: printit.prg
+	clipper printit -m -l
+printltr.obj: printltr.prg
+	clipper printltr -m -l
+printoff.obj: printoff.prg
+	clipper printoff -m -l
+printpat.obj: printpat.prg
+	clipper printpat -m -l
+printpro.obj: printpro.prg
+	clipper printpro -m -l
+printsel.obj: printsel.prg
+	clipper printsel -m -l
+printxry.obj: printxry.prg
+	clipper printxry -m -l
+prompt.obj: prompt.prg
+	clipper prompt -m -l
+putcar.obj: putcar.prg
+	clipper putcar -m -l
+putdia.obj: putdia.prg
+	clipper putdia -m -l
+putech.obj: putech.prg
+	clipper putech -m -l
+putekg.obj: putekg.prg
+	clipper putekg -m -l
+puthos.obj: puthos.prg
+	clipper puthos -m -l
+putpage.obj: putpage.prg
+	clipper putpage -m -l
+putpat.obj: putpat.prg
+	clipper putpat -m -l
+putpro.obj: putpro.prg
+	clipper putpro -m -l
+putxry.obj: putxry.prg
+	clipper putxry -m -l
+readcar.obj: readcar.prg
+	clipper readcar -m -l
+readdia.obj: readdia.prg
+	clipper readdia -m -l
+readech.obj: readech.prg
+	clipper readech -m -l
+readekg.obj: readekg.prg
+	clipper readekg -m -l
+readhos.obj: readhos.prg
+	clipper readhos -m -l
+readltr.obj: readltr.prg
+	clipper readltr -m -l
+readoff.obj: readoff.prg
+	clipper readoff -m -l
+readpat.obj: readpat.prg
+	clipper readpat -m -l
+readpro.obj: readpro.prg
+	clipper readpro -m -l
+readxry.obj: readxry.prg
+	clipper readxry -m -l
+restdbf.obj: restdbf.prg
+	clipper restdbf -m -l
+savedata.obj: savedata.prg
+	clipper savedata -m -l
+sgetage.obj: sgetage.prg
+	clipper sgetage -m -l
+sgetcar.obj: sgetcar.prg
+	clipper sgetcar -m -l
+sgetdia.obj: sgetdia.prg
+	clipper sgetdia -m -l
+sgetdied.obj: sgetdied.prg
+	clipper sgetdied -m -l
+sgetech.obj: sgetech.prg
+	clipper sgetech -m -l
+sgetekg.obj: sgetekg.prg
+	clipper sgetekg -m -l
+sgetpro.obj: sgetpro.prg
+	clipper sgetpro -m -l
+sgetxry.obj: sgetxry.prg
+	clipper sgetxry -m -l
+showdiat.obj: showdiat.prg
+	clipper showdiat -m -l
+showekgt.obj: showekgt.prg
+	clipper showekgt -m -l
+srchage.obj: srchage.prg
+	clipper srchage -m -l
+srchbrth.obj: srchbrth.prg
+	clipper srchbrth -m -l
+srchcar.obj: srchcar.prg
+	clipper srchcar -m -l
+srchdia.obj: srchdia.prg
+	clipper srchdia -m -l
+srchdied.obj: srchdied.prg
+	clipper srchdied -m -l
+srchech.obj: srchech.prg
+	clipper srchech -m -l
+srchekg.obj: srchekg.prg
+	clipper srchekg -m -l
+srchmenu.obj: srchmenu.prg
+	clipper srchmenu -m -l
+srchpro.obj: srchpro.prg
+	clipper srchpro -m -l
+srchproc.obj: srchproc.prg
+	clipper srchproc -m -l
+srchxry.obj: srchxry.prg
+	clipper srchxry -m -l
+status.obj: status.prg
+	clipper status -m -l
+sysadmin.obj: sysadmin.prg
+	clipper sysadmin -m -l
+tail.obj: tail.prg
+	clipper tail -m -l
+testadd.obj: testadd.prg
+	clipper testadd -m -l
+testedit.obj: testedit.prg
+	clipper testedit -m -l
+testview.obj: testview.prg
+	clipper testview -m -l
+totaleod.obj: totaleod.prg
+	clipper totaleod -m -l
+totaleom.obj: totaleom.prg
+	clipper totaleom -m -l
+totaleoy.obj: totaleoy.prg
+	clipper totaleoy -m -l
+usermain.obj: usermain.prg
+	clipper usermain -m -l
+viewcar.obj: viewcar.prg
+	clipper viewcar -m -l
+viewdia.obj: viewdia.prg
+	clipper viewdia -m -l
+viewech.obj: viewech.prg
+	clipper viewech -m -l
+viewekg.obj: viewekg.prg
+	clipper viewekg -m -l
+viewhos.obj: viewhos.prg
+	clipper viewhos -m -l
+viewldir.obj: viewldir.prg
+	clipper viewldir -m -l
+viewltr.obj: viewltr.prg
+	clipper viewltr -m -l
+viewoff.obj: viewoff.prg
+	clipper viewoff -m -l
+viewpro.obj: viewpro.prg
+	clipper viewpro -m -l
+viewxry.obj: viewxry.prg
+	clipper viewxry -m -l
+writecar.obj: writecar.prg
+	clipper writecar -m -l
+writedia.obj: writedia.prg
+	clipper writedia -m -l
+writeech.obj: writeech.prg
+	clipper writeech -m -l
+writeekg.obj: writeekg.prg
+	clipper writeekg -m -l
+writehos.obj: writehos.prg
+	clipper writehos -m -l
+writeltr.obj: writeltr.prg
+	clipper writeltr -m -l
+writeoff.obj: writeoff.prg
+	clipper writeoff -m -l
+writepat.obj: writepat.prg
+	clipper writepat -m -l
+writepro.obj: writepro.prg
+	clipper writepro -m -l
+writexry.obj: writexry.prg
+	clipper writexry -m -l
+yesno.obj: yesno.prg
+	clipper yesno -m -l
+
+

@@ -1,0 +1,23 @@
+FILE main, addltr, addpat, age, backdbf, checkit, chkff, 
+chldadd, chldedit, chldmenu, chldrprt, chldview, chngpass, clrscrn, datetail, 
+deldata, editpat, findpat, floppybu, floppyre, frame, getcar, getcard, getdia, 
+getech, getechd, getekg, getekgd, gethos, gethosd, getkey, getltr, getncar, 
+getnech, getnekg, getnekgd, getnhos, getnpat, getnxry, getoff, getpage, getpass, 
+getpat, getpro, getxry, getxryd, gpname, gpnbr, menu, ochsadd, ochsedit, ochsview, 
+pallcar, palldia, pallech, pallekg, pallhos, pallltr, palloff, pallpat, pallpro, 
+pallxry, password, printall, printcar, printdia, printech, printekg, printhos, 
+printit, printltr, printoff, printpat, printpro, printsel, printxry, prompt, 
+putcar, putdia, putech, putekg, puthos, putpage, putpat, putpro, putxry, 
+readcar, readdia, readech, readekg, readhos, readltr, readoff, readpat, 
+readpro, readxry, restdbf, savedata, sgetage, sgetcar, sgetdia, 
+sgetdied, sgetech, sgetekg, sgetpro, sgetxry, showdiat, showekgt, srchage, 
+srchbrth, srchcar, srchdia, srchdied, srchech, srchekg, srchmenu, srchpro, 
+srchproc, srchxry, status, sysadmin, tail, testadd, testedit, testview, 
+totaleod, totaleom, totaleoy, usermain, viewcar, viewdia, viewech, viewekg, 
+viewhos, viewldir, viewltr, viewoff, viewpro, viewxry, writecar, writedia, 
+writeech, writeekg, writehos, writeltr, writeoff, writepat, writepro, writexry, 
+yesno
+OUTPUT CHILD
+LIB C:\CLIPPER\CLIPPER.LIB
+ 
+
